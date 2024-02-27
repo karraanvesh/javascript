@@ -1,7 +1,8 @@
 /**
  * If the current folder contains package.json file 
- * and "type" : "commonjs" then inorder to use import in a file
- * we need have .mjs as an file extension ex : index.mjs as shown below 
+ * and "type" : "commonjs" then all files with .js as an extension supports 
+ * commonjs moduling  i.e., we can only use require but inorder to use import 
+ * we need to modify the the file extension from .js to .mjs 
  */
 import Searching from "./SearchingAlgo.js";
 

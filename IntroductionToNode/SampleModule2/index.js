@@ -1,6 +1,6 @@
 /**
  * If the current folder contains package.json file with "type" : "module"
- * Then , all the files with .js as an extension are in es6 moduling and 
+ * Then , all the files with .js as an extension supports es6 moduling and 
  * need to follow the standards of es6 moduling .
  * In es6 moduling there is no module.exports , module.exports is supported by 
  * the commonjs moduling files (.cjs extensions ) . So , inorder to use 
